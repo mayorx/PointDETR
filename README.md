@@ -21,8 +21,7 @@ pip install -r requirements.txt
 
 ### 0. Data Preparation
 * COCO dataset ```./datasets/COCO``` 
-* 20% image ids ```datasets```
-* 20% bbox + 80% point annotation
+* 20% image ids ```in ./datasets/annoted_img_ids.py && ./cvpods/datasets/annoted_img_ids.py``` 
 
 ### 1. Train PointDETR by 20% bbox
 * ```python3 -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --coco_path ./datasets/COCO  --partial_training_data --output_dir ./ckpt-ps/point-detr-9x --epochs 108 --lr_drop 72 --data_augment --position_embedding sine --warm_up --multi_step_lr```
