@@ -5,6 +5,20 @@ pytorch implementation of the paper, points as queries: weakly semi-supervised o
     * pretrained PointDETR at 20%  
     * 20% bbox + 80% pseudo-bbox annotation file (PointDETR.json)
 
+### Requirements
+This work is tested under:
+```
+ubuntu 18.04
+python 3.6.9
+torch 1.5.1
+cuda 10.1
+```
+
+### Installation
+```
+pip install -r requirements.txt
+```
+
 ### 0. Data Preparation
 * COCO dataset ```./datasets/COCO``` 
 * 20% image ids ```datasets```
