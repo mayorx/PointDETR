@@ -8,7 +8,7 @@ pytorch implementation of the paper, points as queries: weakly semi-supervised o
     * We annotate 10 points to test the robustness of the method. To reproduce the paper results, this repo use the first point of 10 points (idx: 0).
 * pretrained [PointDETR-9x.pth](https://pan.baidu.com/s/1xMZVK67Tl57bN5GOaTLSFQ?pwd=bo7k) at 20%.
 * 20% bbox + 80% pseudo-bbox annotation file, [PointDETR.json](https://pan.baidu.com/s/1EPXFptsugxLNdaQ3fLylLA?pwd=r5h8)
-
+* For users who are inconvenient to access Baidu Cloud, we also provide a [link](https://drive.google.com/drive/folders/1zUz3gdR4grmyG9ZuTj5YpBGPMnuAItE0?usp=share_link) to Google drive.
 
 ## Requirements
 This work is tested under:
